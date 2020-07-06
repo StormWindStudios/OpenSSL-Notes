@@ -16,7 +16,9 @@ sudo apt-get install certbot python3-certbot-apache
 ```
 
 ### Obtain the Certificate
+```
 certbot --apache --domain <YOUR_DOMAIN> --agree-tos --redirect --hsts --uir --staple-ocsp --rsa-key-size 4096
+```
 
 ### Tweak Your SSL Configuration
 ```
