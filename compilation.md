@@ -20,7 +20,11 @@ cd openssl-1.1.1g
 
 ## Compile and Install
 ```
-make
-make install
+make -j$(nproc)
+make -j$(nproc) install_sw
+ldconfig
 ```
-By default, your OpenSSL binary will be located in /usr/local/ssl 
+* `make -j$(nproc)` will parallelize compilation (in English: "compile using the number of threads this system has)
+* `make -j$(nproc) install_sw` is also parallel, and installs without docs (omit the `_sw` to include docs)
+
+By default, your OpenSSL binary will be located in /usr/local/ssl. It may be necessary to run `ldconfig` to get it up and running.
