@@ -1,4 +1,4 @@
-# Compiling OpenSSL from Source (Ubuntu)
+# Compiling a Slimmer OpenSSL from Source (Ubuntu)
 ## Install dependencies
 `sudo apt-get install build-essential`
 ## Download and extract the sources
