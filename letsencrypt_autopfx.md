@@ -52,3 +52,4 @@ drwxr-xr-x 3 root root 4096 Aug  6 18:23 ..
 -rw------- 1 root root 5629 Aug  6 18:40 certificate.pfx
 -rw------- 1 root root 5629 Aug  6 18:31 certificate.pfx.bak...
 ```
+8) Always worth checking that automatic renewals are working: `systemctl list-timers`
