@@ -1,4 +1,4 @@
-# Automatic PKCS12 Conversion for Lets Encrypt Certificates
+# Automatic PKCS12 Conversion for Let's Encrypt Certificates
 ## Setup
 0) Install Certbot
 1) Specify the path and password for the .pfx file.
